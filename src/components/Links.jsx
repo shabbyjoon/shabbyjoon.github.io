@@ -1,11 +1,18 @@
 import React from 'react';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faGithub} from '@fortawesome/free-solid-svg-icons';
 
 const Links = () => {
   return (
-    <div>
-      <div>Link to github</div>
-      <div>Link to LinkedIn</div>
-      <div>Link to mail icon</div>
+    <div className="links-container">
+
+      <a href="https://github.com/shabbyjoon">
+        {' '}Github
+      </a>
+      <a href="https://www.linkedin.com/in/shabnammokhtarani/">
+        Link to LinkedIn
+      </a>
+      <a href="mailto:shabnam.mokhtarani@address.com">Email link</a>   {' '}
     </div>
   );
 };
