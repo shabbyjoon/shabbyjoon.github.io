@@ -1,0 +1,73 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 63%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #777;
+  padding: 3rem;
+  box-sizing: border-box;
+
+}
+
+.links{
+  position
+}
+.header {
+  height: 50vh;
+  margin: auto;
+  background-color: rgba(230, 177, 243, 0.288);
+  background-position: top;
+  position: relative;
+  text-align: center;
+  margin: 5em;
+}
+
+.header__text-box {
+  position: relative;
+  float: left;
+  top: 40%;
+  left: 50%; 
+  text-align: center;
+}
+
+.about {
+  height: 50vh;
+  margin: auto;
+  background-color: rgba(106, 238, 227, 0.288);
+  background-position: top;
+  position: relative;
+  text-align: center;
+  margin: 5em;
+}
+
+.profilePic {
+
+}
+
+.links-container {
+  margin: auto;
+  /* display: flex; */
+  text-align: center;
+  background-color: rgba(106, 238, 165, 0.288);
+  margin: 5em;
+
+}
+
+.links {
+  display: flex;
+  margin: auto;
+  text-align: center;
+
+}
+
+
+
