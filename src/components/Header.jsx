@@ -1,10 +1,12 @@
 import React from 'react';
+import About from './About.jsx';
+
 
 const Header = () => {
   return (
-    <div className="header">
+    <div className="">
       <div className="header-textbox">
-        Shabnam Mokhtarani
+        <p>Shabnam Mokhtarani</p>
       </div>
 
     </div>

@@ -1,9 +1,10 @@
 import React from 'react';
+// import img from './images/weddingprofile.png';
 
 const About = () => {
   return (
-    <div>
-      <div>My photo goes here</div>
+    <div className="about">
+      <div className="profilePic" />
       <div>About me section</div>
     </div>
   );
